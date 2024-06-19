@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    align-items: center;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+    width: 100%;
+    height: 80px;
+}
+
+img {
+    width: 15%;
+    cursor: pointer;
+}
+
+.right-btn {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.right-btn li {
+    list-style: none;
+}
+
+.btn {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    font-size: medium;
+    border-width: 1px;
+    padding: 10px 25px;
+    border-radius: 1px;
+    background: white;
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+li button:hover {
+    color: black;
+    background-color: rgb(102, 102, 102);
+    border: none;
+}
+
+.firstpara {
+    width: 100%;
+}
+
+.heading {
+    font-size: 55px;
+    width: 50%;
+}
+
+.custom-color {
+    color: rgb(130, 180, 65);
+}
+
+.text-content {
+    margin-top: -30%;
+    margin-left: 3%;
+    text-align: left;
+    align-items: center;
+}
+
+.office-image {
+    text-align: right;
+    
+}
+
+.image2 {
+    width: 50%;
+}
+
+.paragraph {
+    width: 50%;
+    margin-top: 10px;
+    color: rgb(77, 77, 77);
+    font-size: 25px;
+    font-weight: Bold;
+}
+
+.btn-content {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.btn2 {
+    padding: 20px 45px;
+    font-size: 20px;
+    background: rgb(108, 161, 43);
+    border: none;
+    border-radius: 2px;
+    color: rgb(248, 251, 244);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background: rgb(121, 181, 48);
+}
+
+.secondpara {
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondpara h1 {
+    font-size: 50px;
+}
+
+.para-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.para-content {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.para-col h1 {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.para-col img {
+    width: 90%;
+}
+
+.para-col p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+.btn-para {
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-para:hover {
+    color: rgb(133, 133, 133);
+    border: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(8, 120, 150);
+}
+
+.footer {
+    top: 100%;
+    max-width: 1280px;
+    margin-top: 200px;
+    width: 100%;
+    background: rgb(38, 38, 38);
+}
+
+.footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 22px;
+}
+  
+.footer-col .links {
+    margin-top: 20px;
+}
+  
+.footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+  
+.footer-col .links li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+  
+.footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+}
+  
+.footer-col form {
+    display: flex;
+    gap: 10px;
+}
+  
+.footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6 ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+
+.footer-col input::placeholder {
+    color: #ccc;
+}
+   
+.footer-col form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+  
+.footer-col form button:hover {
+    background: #cecccc;
+}
+  
+.footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+  
+.footer-col .icons i {
+    color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+    color: #fff;
+}
+
+.logo a {
+    text-decoration: none;
+    margin-left: -12%;
+}

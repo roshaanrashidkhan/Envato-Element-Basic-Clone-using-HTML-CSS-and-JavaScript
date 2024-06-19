@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(244, 245, 249);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80%;
+
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 12px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: medium;
+}
+
+.nav-list li a:hover {
+    color: antiquewhite;
+}
+
+.nav-list li:nth-child(3) a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li:nth-child(3) a:hover {
+    color: white;
+}
+
+.nav-list2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.nav-list2 li {
+    list-style: none;
+    padding: 26px 12px;
+}
+
+.nav-list2 li a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.nav-list li a:hover {
+    color: antiquewhite;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.nav-right li {
+    list-style: none;
+    padding: 20px 12px;
+}
+
+.nav-right li a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.nav-right li a:hover {
+    color: antiquewhite;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.subtext {
+    margin-top: 8px;
+    color: rgb(128, 128, 128);
+}
+
+.btn {
+    border: none;
+    color: rgb(51, 51, 51);
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.btn i.fa {
+    margin-right: 15px;
+}
+
+.btn-sm {
+    text-decoration: none;
+    background-color: rgb(51, 51, 51);
+    color: rgb(128, 128, 128)
+}
+
+.btn-sm:hover {
+    color: antiquewhite;
+}
+
+.btn1 {
+    border: none;
+    cursor: pointer;
+}
+
+.btn1 i.fa {
+    margin-right: 15px;
+}
+
+.btn-sm1 {
+    text-decoration: none;
+    background-color: rgb(38, 38, 38);
+    color: rgb(128, 128, 128)
+}
+
+.btn-sm1:hover {
+    color: antiquewhite;
+}
+
+.background {
+    background: rgb(38, 38, 38);
+    background-blend-mode: normal;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -30%;
+}
+
+.firstsection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 23px;
+    width: 75%;
+    color: rgb(51, 51, 51);
+}
+
+.secondhalf {
+    margin-right: 0%;
+}
+
+.secondhalf img {
+    width: 100%;
+}
+
+.text-small {
+    margin-top: 1%;
+    font-size: 18px;
+    margin-left: 22px;
+    color: rgb(84, 84, 84);
+    width: 80%;
+}
+
+.search {
+    margin-left: -21%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(108, 161, 43);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search i.fa {
+    margin-right: 15px;
+}
+
+.searchbar {
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 30px;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 2px 4px rgb(194, 194, 194);
+}
+
+::placeholder {
+    color: rgb(194, 194, 194);
+    font-size: medium;
+}
+
+.footer {
+    top: 200%;
+    max-width: 1280px;
+    margin-top: 500px;
+    width: 100%;
+    background: rgb(38, 38, 38);
+}
+
+.footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 22px;
+}
+  
+.footer-col .links {
+    margin-top: 20px;
+}
+  
+.footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+  
+.footer-col .links li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+  
+.footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+}
+  
+.footer-col form {
+    display: flex;
+    gap: 10px;
+}
+  
+.footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6 ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+
+.footer-col input::placeholder {
+    color: #ccc;
+}
+   
+.footer-col form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+  
+.footer-col form button:hover {
+    background: #cecccc;
+}
+  
+.footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+  
+.footer-col .icons i {
+    color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+    color: #fff;
+}
+
+.logo a {
+    text-decoration: none;
+    margin-left: -12%;
+}

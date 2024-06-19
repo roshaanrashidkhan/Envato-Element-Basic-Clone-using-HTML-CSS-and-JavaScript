@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+img {
+    background-color: black;
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: -105px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 400px;
+    background-color: rgb(244, 245, 249);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.google {
+    display: flex;
+    text-align: center;
+    padding: 10px 95px;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google i.fa {
+    margin-right: 5px;
+}
+
+.apple {
+    display: flex;
+    text-align: center;
+    padding: 10px 100px;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.apple i.fa {
+    margin-right: 5px;
+}
+
+.facebook {
+    display: flex;
+    text-align: center;
+    padding: 10px 88px;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.facebook i.fa {
+    margin-right: 5px;
+}
+
+.google:hover,
+.apple:hover,
+.facebook:hover {
+    background-color: rgb(129, 180, 65);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.login-btn {
+    border: none;
+    background-color: rgb(60, 151, 60);
+    color: rgb(244, 245, 249);
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    color: white;
+    background-color: rgb(103, 176, 43);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
